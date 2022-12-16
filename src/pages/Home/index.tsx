@@ -8,11 +8,18 @@ import {
 
 import TopImage  from "../../assets/images/marco-luciano-image1.png"; 
 import { Button } from "../../components/Button/styles";
+import { SocialMediaContainer, SocialMediaItem } from "../../components/SocialMedia/styles";
 
 const Home = () => {
     return (
         <WrapContent>
             <MainSection>
+                {/* <SocialMediaContainer>
+                    <SocialMediaItem />
+                    <SocialMediaItem />
+                    <SocialMediaItem />
+                    <SocialMediaItem />
+                </SocialMediaContainer> */}
                 <div>
                     <Headline>
                         Hello World!<br />

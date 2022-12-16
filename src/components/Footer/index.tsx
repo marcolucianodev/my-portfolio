@@ -3,9 +3,6 @@ import { HeadBrand } from "../Header/styles";
 import { Copy, FooterContainer, FooterContent, SocialMediaItem, SocialMedias } from "./styles";
 import Logo from "../../assets/images/logo-ml-dark.png";
 
-const data = new Date().getFullYear();
-console.log(data)
-
 const Footer = () => {
     return (
         <FooterContainer>
@@ -22,7 +19,7 @@ const Footer = () => {
                     <SocialMediaItem />
                 </SocialMedias>
                 <Copy>
-                    &copy; Marco Luciano <span>{data}</span>
+                    &copy; Marco Luciano <span>{new Date().getFullYear()}</span>
                 </Copy>
             </FooterContent>
         </FooterContainer>

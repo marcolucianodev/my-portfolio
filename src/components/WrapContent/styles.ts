@@ -13,6 +13,7 @@ export const MainSection = styled.section`
     margin: 0 auto;
     display: flex;
     align-items: center;
+    position: relative;
 `;
 
 export const Headline = styled.h1`
