@@ -14,12 +14,12 @@ const Home = () => {
     return (
         <WrapContent>
             <MainSection>
-                {/* <SocialMediaContainer>
+                <SocialMediaContainer>
                     <SocialMediaItem />
                     <SocialMediaItem />
                     <SocialMediaItem />
                     <SocialMediaItem />
-                </SocialMediaContainer> */}
+                </SocialMediaContainer>
                 <div>
                     <Headline>
                         Hello World!<br />
