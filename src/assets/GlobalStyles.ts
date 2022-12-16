@@ -15,6 +15,9 @@ const GlobalStyles = createGlobalStyle`
         --secondary-button-color: #007bff;
         --text-color: #545f6c;
 
+        --envelop-icon: #F59800;
+        --whatsapp-icon: #25D366;
+
     }
 
     html {

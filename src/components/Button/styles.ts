@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 type ButtonProps = {
-    btn2?: boolean
+    btn2?: boolean,
 }
 
 export const Button = styled.button<ButtonProps>`

@@ -26,8 +26,7 @@ const Home = () => {
                         Eu sou Marco Luciano<br />
                         Desenvolvedor Front-end<br />
                         Bem-vindos ao meu<br />
-                        <span>Portfólio</span>
-                        
+                        <span>Portfólio</span>                     
                     </Headline>
                     <HeadButtons>
                         <Button>Item Btn1</Button> 

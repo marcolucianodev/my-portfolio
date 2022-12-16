@@ -4,7 +4,7 @@ export const WrapContent = styled.main`
     display: flex;
     flex-direction: column;
     width: 100%;
-    max-height: 100vh;
+    height: auto;
 `;
 
 export const MainSection = styled.section`
@@ -14,6 +14,16 @@ export const MainSection = styled.section`
     display: flex;
     align-items: center;
     position: relative;
+
+    .about-section {
+        flex-direction: column;
+        padding: 0 1.5rem;
+    }
+
+    .works-section {
+        width: 100%;
+        padding: 0 1.5rem;
+    }
 `;
 
 export const Headline = styled.h1`

@@ -7,7 +7,7 @@ export const SocialMediaContainer = styled.section`
     width: 3.6rem;
     height: auto;
     position: absolute;
-    right: 0;
+    right: -3.6rem;
 `;
 
 export const SocialMediaItem = styled.div`
