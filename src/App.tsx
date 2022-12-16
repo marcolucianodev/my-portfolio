@@ -13,6 +13,7 @@ import {
   MenuItem 
 } from "./components/Menu/styles";
 import Logo from "./assets/images/logo-ml-dark.png";
+import Footer from "./components/Footer";
 
 const App = () => {
   return (
@@ -33,10 +34,12 @@ const App = () => {
           </Menu>
         </HeaderContent>
       </Header>
+      
       <MainRoutes />
 
+      <Footer />
 
-      <h1>Marco Luciano</h1>
+      {/* <h1>Marco Luciano</h1>
       <h2>Marco Luciano</h2>
       <h3>Marco Luciano</h3>
       <h4>Marco Luciano</h4>
@@ -44,7 +47,7 @@ const App = () => {
       <h6>Marco Luciano</h6>
       My Portfolio - Marco Luciano <br />
       <Button>Acesar Aqui</Button>
-      <Button btn2>Botão 2</Button>
+      <Button btn2>Botão 2</Button> */}
     
     <GlobalStyles />
     </div>

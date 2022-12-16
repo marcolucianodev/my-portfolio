@@ -4,7 +4,7 @@ export const WrapContent = styled.main`
     display: flex;
     flex-direction: column;
     width: 100%;
-    height: 100vh;
+    max-height: 100vh;
 `;
 
 export const MainSection = styled.section`
@@ -34,7 +34,7 @@ export const HeadButtons = styled.div`
 `;
 
 export const TopSectionImage = styled.img`
-    width: 28rem;
+    max-width: 50rem;
     flex: 1;
     padding: 3rem;
 `;
