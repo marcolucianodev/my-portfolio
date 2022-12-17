@@ -11,25 +11,33 @@ export const WorksItem = styled.article`
     height: 29rem;
     background-color: gray;
     position: relative;
-`;
 
-export const WorkInfo = styled.div`
-    background-color: rgba(0,0,0,0.5);
-    width: inherit;
-    height: inherit;
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-    color: #FFF ;
-    padding: 2rem;
-    gap: 1rem;
-    cursor: pointer;
-    transition: all 0.3s;
+    .work-info {
+        width: inherit;
+        height: inherit;
+        opacity: 0;
+        transition: all 0.3s;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        padding: 2rem;
+        gap: 1rem;
+    }
+
+    :hover .work-info {
+        background-color: rgba(0,0,0,0.5);
+        width: inherit;
+        height: inherit;
+        color: #FFF;
+        cursor: pointer;
+        transition: all 0.3s;
+        opacity: 1;
+    }
 `;
 
 export const BackToTop = styled.div`

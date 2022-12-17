@@ -1,9 +1,6 @@
-import { MainSection, WrapContent } from "../WrapContent/styles";
+import { MainSection } from "../WrapContent/styles";
 import { AboutContent, AboutImage, AboutText, SectionTitle, SkillSet } from "./styles";
 import ImageAbout from "../../assets/images/marco-luciano-image2.png";
-import { SocialMediaContainer, SocialMediaItem } from "../SocialMedia/styles";
-// import { LeakedButton } from "../../components/Button/styles";
-import { Link } from "react-router-dom";
 
 import { FaAngleRight } from "react-icons/fa";
 

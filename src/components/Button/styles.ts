@@ -12,4 +12,4 @@ export const Button = styled.button<ButtonProps>`
     font-size: var(--main-font);
     color: #FFF;
     cursor: pointer;
-`
+`;
