@@ -10,6 +10,7 @@ export const SectionTitle = styled.h1`
     font-size: 5rem;
     color: var(--main-color);
     text-transform: uppercase;
+    margin-bottom: 2rem;
 `;
 
 export const AboutContent = styled.section`
@@ -64,6 +65,7 @@ export const SkillSet = styled.div`
     justify-content: center;
     align-items: center;
     gap: 2rem;
+    padding: 1rem 0 1.5rem 0;
 
     .skill-icon {
         width: 48px;

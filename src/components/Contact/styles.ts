@@ -28,7 +28,7 @@ export const ContactText = styled.div`
 export const ContactItemsBox = styled.section`
     display: flex;
     gap: 2rem;
-    margin-top: 3rem;
+    margin: 3rem 0;
 `;
 
 export const ContactItem = styled.div<ContactProps>`

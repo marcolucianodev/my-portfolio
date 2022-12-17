@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const Header = styled.header`
+export const HeaderContainer = styled.header`
     width: 100%;
     display: flex;
     align-items: center;
@@ -10,6 +10,7 @@ export const Header = styled.header`
 export const HeaderContent = styled.section`
     display: flex;
     justify-content: space-between;
+    align-items: center;
     width: 100%;
     max-width: 120rem;
     margin: 0 auto;

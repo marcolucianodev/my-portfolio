@@ -1,40 +1,19 @@
 import { 
-    HeadButtons,
-    Headline, 
-    MainSection, 
-    TopSectionImage, 
     WrapContent 
 } from "../../components/WrapContent/styles";
 
-import TopImage  from "../../assets/images/marco-luciano-image1.png"; 
-import { Button } from "../../components/Button/styles";
-import { SocialMediaContainer, SocialMediaItem } from "../../components/SocialMedia/styles";
+import About from "../../components/About";
+import Works from "../../components/Works";
+import Contact from "../../components/Contact";
+import TopSection from "../../components/TopSection";
 
 const Home = () => {
     return (
         <WrapContent>
-            <MainSection>
-                <SocialMediaContainer>
-                    <SocialMediaItem />
-                    <SocialMediaItem />
-                    <SocialMediaItem />
-                    <SocialMediaItem />
-                </SocialMediaContainer>
-                <div>
-                    <Headline>
-                        Hello World!<br />
-                        Eu sou Marco Luciano<br />
-                        Desenvolvedor Front-end<br />
-                        Bem-vindos ao meu<br />
-                        <span>Portfólio</span>                     
-                    </Headline>
-                    <HeadButtons>
-                        <Button>Item Btn1</Button> 
-                        <Button btn2>Item Btn1</Button>
-                    </HeadButtons>
-                </div>
-                <TopSectionImage src={TopImage} />
-            </MainSection>
+            <TopSection />
+            <About />
+            <Works />
+            <Contact />
         </WrapContent>
     )
 }

@@ -10,42 +10,18 @@ export const WrapContent = styled.main`
 export const MainSection = styled.section`
     width: 100%;
     max-width: 120rem;
-    margin: 0 auto;
+    margin: 7rem auto;
     display: flex;
     align-items: center;
     position: relative;
 
-    .about-section {
+    #about-section {
         flex-direction: column;
         padding: 0 1.5rem;
     }
 
-    .works-section {
+    #works-section {
         width: 100%;
         padding: 0 1.5rem;
     }
-`;
-
-export const Headline = styled.h1`
-    text-transform: uppercase;
-    flex: 2;
-    font-size: 4rem;
-    padding-right: 2rem;
-
-    span {
-        font-size: 6rem;
-        color: var(--main-color);
-    }
-`;
-
-export const HeadButtons = styled.div`
-    display: flex;
-    gap: 2rem;
-    margin-top: 2rem;
-`;
-
-export const TopSectionImage = styled.img`
-    max-width: 50rem;
-    flex: 1;
-    padding: 3rem;
 `;
