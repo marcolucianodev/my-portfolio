@@ -39,20 +39,3 @@ export const WorksItem = styled.article`
         opacity: 1;
     }
 `;
-
-export const BackToTop = styled.div`
-    margin-top: 1.2rem;
-    width: 100%;
-    display: flex;
-    justify-content: flex-end;
-
-    span {
-        font-size: 3rem;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        padding: 0.2rem;
-        border: 3px solid var(--text-color);
-        cursor: pointer;
-    }
-`;

@@ -65,9 +65,6 @@ const Works = () => {
                         </div>
                     </WorksItem>
                 </WorksContent>
-                <BackToTop>
-                    <span><FaAngleUp /></span>
-                </BackToTop>
             </div>
         </MainSection>
     )

@@ -1,11 +1,17 @@
 import { HeadBrand, HeaderContainer, HeaderContent } from "./styles";
 
 import Logo from "../../assets/images/logo-ml-dark.png";
-import { Menu, MenuItem } from "../Menu/styles";
+import { Menu, MenuItem, MenuMobileIcon } from "../Menu/styles";
 import { Link } from "react-router-dom";
 import { SocialMediaContainer, SocialMediaItem } from "../SocialMedia/styles";
 
-const Header = () => {
+import { FaBars } from "react-icons/fa";
+
+type HeaderProps = {
+    openMenu: () => void;
+}
+
+const Header = ({openMenu}: HeaderProps) => {
     return (
         <HeaderContainer>
             <HeaderContent>
@@ -56,6 +62,9 @@ const Header = () => {
                         X
                     </SocialMediaItem>
                 </SocialMediaContainer>
+                <MenuMobileIcon>
+                    <FaBars onClick={openMenu} />
+                </MenuMobileIcon>
             </HeaderContent>
         </HeaderContainer>
     )
