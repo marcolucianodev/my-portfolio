@@ -1,13 +1,12 @@
 import { MainSection } from "../WrapContent/styles";
 import { SectionTitle } from "../About/styles";
-import { BackToTop, WorksContent, WorksItem } from "./styles";
-
-import { FaAngleUp } from "react-icons/fa";
+import { WorksContent, WorksItem } from "./styles";
 
 const Works = () => {
     return (
         <MainSection>
             <div id="works-section">
+                <div className="hidden"></div>
                 <SectionTitle>Trabalhos</SectionTitle>
                 <WorksContent>
                     <WorksItem>

@@ -6,12 +6,14 @@ import ContactImg from "../../assets/images/marco-luciano-image3.png";
 
 import { FaWhatsapp, FaRegEnvelope } from "react-icons/fa";
 import { Link } from "react-router-dom";
-import { SocialMediaContainer, SocialMediaItem } from "../SocialMedia/styles";
+import { SocialMediaContainer } from "../SocialMedia/styles";
+import SocialMedia from "../SocialMedia";
 
 const Contact = () => {
     return (
         <MainSection>
             <div id="contact-section">
+                <div className="hidden"></div>
                 <SectionTitle>Contato</SectionTitle>
                 <ContactContent>
                     <ContactText>
@@ -37,24 +39,24 @@ const Contact = () => {
                             </Link>
                         </ContactItemsBox>
                         <SocialMediaContainer>
-                            <SocialMediaItem
-                                iconBg="#FFF"
-                                iconColor="gray"
-                                iconBorder="2px"
-                                iconHeight="3.6rem"
-                                iconWidth="3.6rem"
-                            >
-                                Face
-                            </SocialMediaItem>
-                            <SocialMediaItem
-                                iconBg="#FFF"
-                                iconColor="gray"
-                                iconBorder="2px"
-                                iconHeight="3.6rem"
-                                iconWidth="3.6rem"
-                            >
-                                Gith
-                            </SocialMediaItem>
+                            <SocialMedia 
+                                bg="gray"
+                                border="none"
+                                color="red"
+                                height="3.6rem"
+                                width="3.6rem"
+                                content="X"
+                                url="#"
+                            />
+                            <SocialMedia 
+                                bg="gray"
+                                border="none"
+                                color="red"
+                                height="3.6rem"
+                                width="3.6rem"
+                                content="X"
+                                url="#"
+                            />
                         </SocialMediaContainer>
                     </ContactText>
                     <ContactImage src={ContactImg} />

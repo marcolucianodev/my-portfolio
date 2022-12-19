@@ -9,6 +9,7 @@ const About = () => {
     return (
         <MainSection>
             <div id="about-section">
+                <div className="hidden"></div>
                 <SectionTitle>Sobre</SectionTitle>
                 <AboutContent>
                     <AboutImage src={ImageAbout} />

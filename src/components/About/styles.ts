@@ -11,15 +11,29 @@ export const SectionTitle = styled.h1`
     color: var(--main-color);
     text-transform: uppercase;
     margin-bottom: 2rem;
+
+    @media(max-width: 480px) {
+        font-size: 3rem;
+    }
 `;
 
 export const AboutContent = styled.section`
     display: flex;
+
+    @media(max-width: 1023px) {
+        flex-direction: column;
+    }
 `;
 
 export const AboutImage = styled.img`
     padding: 3rem;
     max-width: 40rem;
+    margin: 0 auto;
+
+    @media(max-width: 768px){
+        margin: 0 auto;
+        max-width: 30rem;
+    }
 `;
 
 export const AboutText = styled.div<AboutProps>`
@@ -38,6 +52,10 @@ export const AboutText = styled.div<AboutProps>`
         margin-top: 2rem;
         height: 4.5rem;
         gap: 1.2rem;
+
+        @media(max-width: 768px) {
+            justify-content: center;
+        }
      }
 
      .leaked-button {
@@ -58,6 +76,10 @@ export const AboutText = styled.div<AboutProps>`
             border: 2px solid ${props => props.bgBtn};
         }
      }
+
+     @media(max-width: 768px) {
+        padding: 0;
+     }
 `;
 
 export const SkillSet = styled.div`
@@ -72,4 +94,8 @@ export const SkillSet = styled.div`
         height: 48px;
         background-color: gray;
     } 
+
+    @media(max-width: 768px) {
+        flex-wrap: wrap;
+    }
 `;

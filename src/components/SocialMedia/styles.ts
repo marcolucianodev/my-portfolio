@@ -1,14 +1,18 @@
 import styled from "styled-components";
 
-type SocialMediaProps = {
+type SocialMediaAttributes = {
     iconWidth: string,
     iconHeight: string,
     iconBorder: string,
     iconBg: string,
-    iconColor: string
+    iconColor: string,
 }
 
-export const SocialMediaContainer = styled.section`
+type SocialMediaDisplay = {
+    mdisplay?: boolean
+}
+
+export const SocialMediaContainer = styled.section<SocialMediaDisplay>`
     display: flex;
     gap: 2rem;
     height: auto;
@@ -20,9 +24,13 @@ export const SocialMediaContainer = styled.section`
         height: 3.6rem;
         background-color: gray;
     }
+
+    @media(max-width: 768px) {
+        display: ${props => props.mdisplay ? "none" : "flex"};
+    }
 `;
 
-export const SocialMediaItem = styled.div<SocialMediaProps>`
+export const SocialMediaItem = styled.div<SocialMediaAttributes>`
     width: ${props => props.iconWidth};
     height: ${props => props.iconHeight};
     background-color: ${props => props.iconBg};

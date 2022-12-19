@@ -4,8 +4,12 @@ export const FooterContainer = styled.footer`
     width: 100%;
     display: flex;
     align-items: center;
-    padding: 2rem 0;
+    padding: 2rem 1.5rem;
     margin-top: 6.5rem;
+
+    @media(max-width: 1023px) {
+        margin-top: 0;
+    }
 `;
 
 export const FooterContent = styled.section`
@@ -14,20 +18,12 @@ export const FooterContent = styled.section`
     width: 100%;
     max-width: 120rem;
     margin: 0 auto;
-`;
-
-export const SocialMedias = styled.div`
-    display: flex;
-    justify-content: center;
     align-items: center;
-    flex: 1;
-    gap: 1.5rem;
-`;
 
-export const SocialMediaItem = styled.div`
-    background-color: gray;
-    width: 24px;
-    height: 24px;
+    @media(max-width: 768px) {
+        flex-direction: column;
+        gap: 2rem;
+    }
 `;
 
 export const Copy = styled.div`
