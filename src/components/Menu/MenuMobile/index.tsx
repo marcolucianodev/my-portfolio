@@ -5,6 +5,8 @@ import { MenuItem } from "../styles";
 import { SocialMediaContainer } from "../../SocialMedia/styles";
 import SocialMedia from "../../SocialMedia";
 
+import { FaLinkedinIn, FaGithub, FaEnvelope, FaWhatsapp } from "react-icons/fa";
+
 type MenuMobileProps = {
     openMenu: () => void
 }
@@ -24,40 +26,48 @@ const MenuMobile = ({openMenu}: MenuMobileProps) => {
                 <MenuItem>
                     <SocialMediaContainer>
                         <SocialMedia 
-                            bg="gray"
+                            bg="none"
                             border="none"
-                            color="#FFF"
+                            color="var(--text-color)"
+                            content={<FaLinkedinIn />}
                             height="3.6rem"
                             width="3.6rem"
-                            content="X"
+                            size="3rem"
                             url="#"
+                            title="Linkedin"
                         />
                         <SocialMedia 
-                            bg="gray"
+                            bg="none"
                             border="none"
-                            color="#FFF"
+                            color="var(--text-color)"
+                            content={<FaGithub />}
                             height="3.6rem"
                             width="3.6rem"
-                            content="X"
+                            size="3rem"
                             url="#"
+                            title="Github"
                         />
                         <SocialMedia 
-                            bg="gray"
+                            bg="none"
                             border="none"
-                            color="#FFF"
+                            color="var(--text-color)"
+                            content={<FaEnvelope />}
                             height="3.6rem"
                             width="3.6rem"
-                            content="X"
+                            size="3rem"
                             url="#"
+                            title="E-mail"
                         />
                         <SocialMedia 
-                            bg="gray"
+                            bg="none"
                             border="none"
-                            color="#FFF"
+                            color="var(--text-color)"
+                            content={<FaWhatsapp />}
                             height="3.6rem"
                             width="3.6rem"
-                            content="X"
+                            size="3rem"
                             url="#"
+                            title="WhatsApp"
                         />
                     </SocialMediaContainer>
                 </MenuItem>

@@ -45,6 +45,10 @@ export const ContactItemsBox = styled.section`
     display: flex;
     gap: 2rem;
     margin: 3rem 0;
+
+    @media (max-width: 425px) {
+        flex-direction: column;
+    }
 `;
 
 export const ContactItem = styled.div<ContactProps>`
@@ -60,5 +64,9 @@ export const ContactItem = styled.div<ContactProps>`
 
     svg {
         font-size: 2rem;
+    }
+
+    @media (max-width: 425px) {
+        justify-content: center;
     }
 `;

@@ -1,16 +1,18 @@
-import { SocialMediaContainer, SocialMediaItem } from "./styles";
+import { SocialMediaItem } from "./styles";
 
 type SocialMediaProps = {
-    content: string,
+    content: string | JSX.Element,
     bg: string,
     color: string, 
     height: string,
     width: string,
     border: string,
-    url: string
+    url: string,
+    size: string,
+    title: string
 }
 
-const SocialMedia = ({content, bg, border, color, height, width, url}: SocialMediaProps) => {
+const SocialMedia = ({content, bg, border, color, height, width, url, size, title}: SocialMediaProps) => {
     return (
         <a href={url} target="_blank">
             <SocialMediaItem
@@ -19,6 +21,8 @@ const SocialMedia = ({content, bg, border, color, height, width, url}: SocialMed
                 iconHeight={height}
                 iconWidth={width}
                 iconBorder={border}
+                iconSize={size}
+                title={title}
             >
                 {content}
             </SocialMediaItem>

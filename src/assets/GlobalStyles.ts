@@ -17,6 +17,8 @@ const GlobalStyles = createGlobalStyle`
 
         --envelop-icon: #F59800;
         --whatsapp-icon: #25D366;
+        --linkedin-icon: #0a66c2;
+        --github-icon: #0D1117;
 
     }
 

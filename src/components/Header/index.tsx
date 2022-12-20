@@ -8,6 +8,8 @@ import { FaBars } from "react-icons/fa";
 import { MenuMobileIcon } from "../Menu/MenuMobile/styles";
 import SocialMedia from "../SocialMedia";
 
+import { FaLinkedinIn, FaGithub, FaEnvelope, FaWhatsapp } from "react-icons/fa";
+
 type HeaderProps = {
     openMenu: () => void;
 }
@@ -29,40 +31,48 @@ const Header = ({openMenu}: HeaderProps) => {
                 </Menu>
                     <SocialMediaContainer mdisplay>
                         <SocialMedia 
-                            bg="red"
+                            bg="var(--text-color)"
                             border="none"
-                            color="blue"
-                            content="X"
+                            color="#FFF"
+                            content={<FaLinkedinIn />}
                             height="2.4rem"
                             width="2.4rem"
+                            size="2rem"
                             url="#"
+                            title="Linkedin"
                         />
                         <SocialMedia 
-                            bg="red"
+                            bg="var(--text-color)"
                             border="none"
-                            color="blue"
-                            content="X"
+                            color="#FFF"
+                            content={<FaGithub />}
                             height="2.4rem"
                             width="2.4rem"
+                            size="2rem"
                             url="#"
+                            title="Github"
                         />
                         <SocialMedia 
-                            bg="red"
+                            bg="var(--text-color)"
                             border="none"
-                            color="blue"
-                            content="X"
+                            color="#FFF"
+                            content={<FaEnvelope />}
                             height="2.4rem"
                             width="2.4rem"
+                            size="2rem"
                             url="#"
+                            title="E-mail"
                         />
                         <SocialMedia 
-                            bg="red"
+                            bg="var(--text-color)"
                             border="none"
-                            color="blue"
-                            content="X"
+                            color="#FFF"
+                            content={<FaWhatsapp />}
                             height="2.4rem"
                             width="2.4rem"
+                            size="2rem"
                             url="#"
+                            title="WhatsApp"
                         />
                     </SocialMediaContainer>
                 <MenuMobileIcon>

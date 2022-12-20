@@ -4,6 +4,8 @@ import Logo from "../../assets/images/logo-ml-dark.png";
 import SocialMedia from "../SocialMedia";
 import { SocialMediaContainer } from "../SocialMedia/styles";
 
+import { FaLinkedinIn, FaGithub, FaEnvelope, FaWhatsapp } from "react-icons/fa";
+
 const Footer = () => {
     return (
         <FooterContainer>
@@ -15,40 +17,48 @@ const Footer = () => {
                 </HeadBrand>
                 <SocialMediaContainer>
                     <SocialMedia 
-                        bg="red"
+                        bg="none"
                         border="none"
-                        color="blue"
-                        content="X"
+                        color="var(--text-color)"
+                        content={<FaLinkedinIn />}
                         height="2.4rem"
                         width="2.4rem"
                         url="#"
+                        size="2rem"
+                        title="Linkedin"
                     />
                     <SocialMedia 
-                        bg="red"
+                        bg="none"
                         border="none"
-                        color="blue"
-                        content="X"
+                        color="var(--text-color)"
+                        content={<FaGithub />}
                         height="2.4rem"
                         width="2.4rem"
                         url="#"
+                        size="2rem"
+                        title="Github"
                     />
                     <SocialMedia 
-                        bg="red"
+                        bg="none"
                         border="none"
-                        color="blue"
-                        content="X"
+                        color="var(--text-color)"
+                        content={<FaEnvelope />}
                         height="2.4rem"
                         width="2.4rem"
                         url="#"
+                        size="2rem"
+                        title="E-mail"
                     />
                     <SocialMedia 
-                        bg="red"
+                        bg="none"
                         border="none"
-                        color="blue"
-                        content="X"
+                        color="var(--text-color)"
+                        content={<FaWhatsapp />}
                         height="2.4rem"
                         width="2.4rem"
                         url="#"
+                        size="2rem"
+                        title="WhatsApp"
                     />
                 </SocialMediaContainer>
                 <Copy>

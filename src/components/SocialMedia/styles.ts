@@ -6,6 +6,7 @@ type SocialMediaAttributes = {
     iconBorder: string,
     iconBg: string,
     iconColor: string,
+    iconSize: string
 }
 
 type SocialMediaDisplay = {
@@ -35,6 +36,12 @@ export const SocialMediaItem = styled.div<SocialMediaAttributes>`
     height: ${props => props.iconHeight};
     background-color: ${props => props.iconBg};
     border: ${props => props.iconBorder} solid ${props => props.iconColor};
-    border-radius: .5rem;
     color: ${props => props.iconColor};
+    font-size: ${props => props.iconSize};
+    padding: .3rem;
+    border-radius: .5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: content-box;
 `;

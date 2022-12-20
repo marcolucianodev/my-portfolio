@@ -4,7 +4,7 @@ import { ContactContent, ContactImage, ContactItem, ContactItemsBox, ContactText
 
 import ContactImg from "../../assets/images/marco-luciano-image3.png";
 
-import { FaWhatsapp, FaRegEnvelope } from "react-icons/fa";
+import { FaWhatsapp, FaRegEnvelope, FaLinkedinIn , FaGithub } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import { SocialMediaContainer } from "../SocialMedia/styles";
 import SocialMedia from "../SocialMedia";
@@ -40,22 +40,26 @@ const Contact = () => {
                         </ContactItemsBox>
                         <SocialMediaContainer>
                             <SocialMedia 
-                                bg="gray"
+                                bg="var(--linkedin-icon)"
                                 border="none"
-                                color="red"
+                                color="#FFF"
                                 height="3.6rem"
                                 width="3.6rem"
-                                content="X"
+                                content={<FaLinkedinIn />}
                                 url="#"
+                                size="3rem"
+                                title="Linkedin"
                             />
                             <SocialMedia 
-                                bg="gray"
+                                bg="var(--github-icon)"
                                 border="none"
-                                color="red"
+                                color="#FFF"
                                 height="3.6rem"
                                 width="3.6rem"
-                                content="X"
+                                content={<FaGithub />}
                                 url="#"
+                                size="3rem"
+                                title="Github"
                             />
                         </SocialMediaContainer>
                     </ContactText>
