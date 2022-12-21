@@ -18,8 +18,8 @@ const TopSection = () => {
                             <span>Portfólio</span>
                         </Headline>
                         <HeadButtons>
-                            <Button>Item 1</Button>
-                            <Button btn2>Item 2</Button>
+                            <a href="#contact-section"><Button>Vamos conversar ?</Button></a>
+                            <a href="#works-section"><Button btn2>Meus Trabalhos</Button></a>
                         </HeadButtons>
                     </div>
                     <TopSectionImage src={TopImage} />

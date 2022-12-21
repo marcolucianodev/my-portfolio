@@ -1,0 +1,52 @@
+{
+    "projects": [
+        {
+            "id": 1,
+            "title": "Calculadora de Porcentagem",
+            "description": "1 - Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, veritatis minus! Vitae laboriosam fugit molestiae consequuntur. Quo perferendis officiis ex possimus? Praesentium pariatur id aut magni illum dicta reiciendis quas?",
+            "image": "projects/images/calc-porcentagem.png",
+            "url": "https://marcolucianodev.github.io/calculadora-de-porcentagem",
+            "repo": "https://github.com/marcolucianodev/calculadora-de-porcentagem"
+        },
+        {
+            "id": 2,
+            "title": "Project 2",
+            "description": "2 - Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, veritatis minus! Vitae laboriosam fugit molestiae consequuntur. Quo perferendis officiis ex possimus? Praesentium pariatur id aut magni illum dicta reiciendis quas?",
+            "image": "projects/images/appco.png",
+            "url": "#",
+            "repo": "#"
+        },
+        {
+            "id": 3,
+            "title": "Project 3",
+            "description": "3 - Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, veritatis minus! Vitae laboriosam fugit molestiae consequuntur. Quo perferendis officiis ex possimus? Praesentium pariatur id aut magni illum dicta reiciendis quas?",
+            "image": "projects/images/mockup.png",
+            "url": "#",
+            "repo": "#"
+        },
+        {
+            "id": 4,
+            "title": "Project 4",
+            "description": "4 - Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, veritatis minus! Vitae laboriosam fugit molestiae consequuntur. Quo perferendis officiis ex possimus? Praesentium pariatur id aut magni illum dicta reiciendis quas?",
+            "image": "projects/images/teste-port-image.jpg",
+            "url": "#",
+            "repo": "#"
+        },
+        {
+            "id": 5,
+            "title": "Project 5",
+            "description": "5 - Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, veritatis minus! Vitae laboriosam fugit molestiae consequuntur. Quo perferendis officiis ex possimus? Praesentium pariatur id aut magni illum dicta reiciendis quas?",
+            "image": "projects/images/teste-port-image.jpg",
+            "url": "#",
+            "repo": "#"
+        },
+        {
+            "id": 6,
+            "title": "Project 5",
+            "description": "5 - Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, veritatis minus! Vitae laboriosam fugit molestiae consequuntur. Quo perferendis officiis ex possimus? Praesentium pariatur id aut magni illum dicta reiciendis quas?",
+            "image": "projects/images/teste-port-image.jpg",
+            "url": "#",
+            "repo": "#"
+        }
+    ]
+}

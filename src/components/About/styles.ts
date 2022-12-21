@@ -92,7 +92,76 @@ export const SkillSet = styled.div`
     .skill-icon {
         width: 48px;
         height: 48px;
-        background-color: gray;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        transition: 0.3s;
+
+        :hover {
+            svg.js {
+                color: var(--js-color);
+                transition: all.3s;
+            }
+
+            svg.react {
+                color: var(--react-color);
+                transition: all.3s;
+            }
+
+            svg.html {
+                color: var(--html-color);
+                transition: all.3s;
+            }
+
+            svg.css {
+                color: var(--css-color);
+                transition: all.3s;
+            }
+
+            svg.git {
+                color: var(--git-color);
+                transition: all.3s;
+            }
+
+            img.ts {
+                filter: var(--ts-hover-filter);
+                transition: all.3s;
+            }
+        }
+
+        img {
+            width: 4.2rem;
+            filter: var(--ts-main-filter);
+        }
+
+        :hover .hint-icon {
+            opacity: 1;
+            transition: .5s;
+        }
+
+        .hint-icon {
+            position: absolute;
+            background-color: rgba(0, 0, 0, 0.8);
+            bottom: -3.1rem;
+            padding: 0 1rem;
+            border-radius: 0.5rem;
+            color: #FFF;
+            opacity: 0;
+            z-index: 99;
+
+            :after {
+                content: "";
+                width: 0;
+                height: 0;
+                position: absolute;
+                border-left: 10px solid transparent;
+                border-right: 10px solid transparent;
+                border-bottom: 10px solid rgba(0, 0, 0, 0.8);
+                top: -10px;
+                left: 40%;
+            }
+        }
     } 
 
     @media(max-width: 768px) {

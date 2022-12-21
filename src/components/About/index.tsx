@@ -2,7 +2,9 @@ import { MainSection } from "../WrapContent/styles";
 import { AboutContent, AboutImage, AboutText, SectionTitle, SkillSet } from "./styles";
 import ImageAbout from "../../assets/images/marco-luciano-image2.png";
 
-import { FaAngleRight } from "react-icons/fa";
+import { FaAngleRight, FaJsSquare, FaReact, FaHtml5, FaCss3Alt, FaGitAlt } from "react-icons/fa";
+
+import TypescriptIcon from "../../assets/images/typescript.png"
 
 
 const About = () => {
@@ -26,14 +28,31 @@ const About = () => {
                         <h3>Minhas Hard Skills:</h3>
                         <p>Javascript, Typescript, React, Context API, Consumo de API Rest, HTML, CSS, Styled-Components, Tailwind CSS, Git, Scrum.</p>
                         <SkillSet>
-                            <div className="skill-icon"></div>
-                            <div className="skill-icon"></div>
-                            <div className="skill-icon"></div>
-                            <div className="skill-icon"></div>
-                            <div className="skill-icon"></div>
-                            <div className="skill-icon"></div>
-                            <div className="skill-icon"></div>
-                            <div className="skill-icon"></div>
+                            <div className="skill-icon">
+                                <FaJsSquare size={48} className="js" />
+                                <span className="hint-icon">Javascript</span>
+                            </div>
+                            <div className="skill-icon">
+                                <img src={TypescriptIcon} alt="" className="ts" />
+                                <span className="hint-icon">Typescript</span>
+                            </div>
+                            <div className="skill-icon">
+                                <FaReact size={48} className="react" />
+                                <span className="hint-icon">React</span>
+                            </div>
+                            <div className="skill-icon">
+                                <FaHtml5 size={48} className="html" />
+                                <span className="hint-icon">HTML</span>
+                            </div>
+                            <div className="skill-icon">
+                                <FaCss3Alt size={48} className="css" />
+                                <span className="hint-icon">CSS</span>
+                            </div>
+                            <div className="skill-icon">
+                                <FaGitAlt size={48} className="git"  />
+                                <span className="hint-icon">Git</span>
+                            </div>
+                            {/* <div className="skill-icon"></div> */}
                         </SkillSet>
                         <div className="get-in-touch">
                             <a href="/" className="leaked-button" style={{width:"17rem", justifyContent:"center"}}>Download CV <FaAngleRight /></a>

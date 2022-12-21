@@ -19,6 +19,14 @@ const GlobalStyles = createGlobalStyle`
         --whatsapp-icon: #25D366;
         --linkedin-icon: #0a66c2;
         --github-icon: #0D1117;
+        --js-color: #f7e018;
+        --react-color: #61dbfb;
+        --html-color: #ff5722;
+        --css-color: #2196f3;
+        --git-color: #f05033;
+
+        --ts-main-filter: invert(35%) sepia(28%) saturate(264%) hue-rotate(172deg) brightness(96%) contrast(90%);
+        --ts-hover-filter: invert(40%) sepia(74%) saturate(506%) hue-rotate(169deg) brightness(95%) contrast(98%);
 
     }
 
