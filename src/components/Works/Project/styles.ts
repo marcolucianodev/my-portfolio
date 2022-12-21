@@ -6,7 +6,6 @@ type ProjectProps = {
 
 export const ProjectItem = styled.article<ProjectProps>`
     height: 29rem;
-    /* background-color: gray; */
     background-image: url(${props => props.bgImage});
     background-position: center;
     background-size: cover;
@@ -30,7 +29,7 @@ export const ProjectItem = styled.article<ProjectProps>`
     }
 
     :hover .project-info {
-        background-color: rgba(0,0,0,0.5);
+        background-color: rgba(0,0,0,0.8);
         width: inherit;
         height: inherit;
         color: #FFF;

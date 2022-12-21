@@ -1,5 +1,4 @@
-import axios from "axios";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import Modal from "../../Modal";
 import { ProjectItem } from "./styles";
 
@@ -14,21 +13,6 @@ type ProjectProps = {
 const Project = ({desc, title, image, repo, url}: ProjectProps) => {
 
     const [ modal, setModal ] = useState(false);
-    // const [ project, setProject ] = useState([]);
-
-    // const getProjects = async () => {
-    //     try {
-    //         const response = await axios.get("projects/projects.json");
-    //         const data = response.data.projects
-    //         setProject(data)
-    //     } catch (error) {
-    //         console.log(error)
-    //     }
-    // }
-
-    // useEffect(() => {
-    //     getProjects();
-    // }, [])
     
     const handleOpenModal = () => {
         setModal(!modal)

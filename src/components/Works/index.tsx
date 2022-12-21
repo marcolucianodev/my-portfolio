@@ -4,13 +4,11 @@ import axios from "axios";
 import { MainSection } from "../WrapContent/styles";
 import { SectionTitle } from "../About/styles";
 import { WorksContent } from "./styles";
-import Modal from "../Modal";
 import Project from "./Project";
 
 const Works = () => {
 
     const [project, setProject] = useState([]);
-    // const [modal, setModal] = useState(false);
 
     const getProjects = async () => {
         try {
@@ -26,29 +24,11 @@ const Works = () => {
         getProjects();
     }, [])
 
-    // const handleOpenModal = () => {
-    //     setModal(!modal)
-    //     console.log(!modal)
-    // }
-
-    // const id = project.map((item: any) => item.id)
     const projectTitle = project.map((item: any) => item.title)
     const projectDesc = project.map((item: any) => item.description)
     const projectImage = project.map((item: any) => item.image)
     const projectUrl = project.map((item: any) => item.url)
     const projectRepo = project.map((item: any) => item.repo)
-
-    // let dados = []
-    // for(let i = 0; i < project.length; i++){
-    //     dados.push(
-    //         <Modal 
-    //             description={project[i].description}
-    //             modalOpen={handleOpenModal}
-    //             title={projectTitle[i]}
-    //         />
-    //     )
-    //     console.log(dados)
-    // }
 
     return (
         <MainSection>
@@ -98,69 +78,6 @@ const Works = () => {
                         repo={projectRepo[0]}
                         url={projectUrl[0]}
                     />
-
-                    {/* <WorksItem>
-                        {modal && 
-                            <Modal 
-                                description={projectDescription[8]} 
-                                title={projectTitle[8]}
-                                image={projectImage[8]}
-                                modalOpen={handleOpenModal}
-                            />
-                        }
-                        <div className="work-info" onClick={handleOpenModal}>
-                            <h2 className="job-title">{projectTitle[8]}</h2>
-                            <p className="job-desciption">{projectDescription[8]}</p>
-                        </div>
-                    </WorksItem>
-                    <WorksItem>
-                        <div className="work-info">
-                            <h2 className="job-title">Job 2</h2>
-                            <p className="job-desciption">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius illo, itaque, voluptatem, voluptatum odit impedit animi facilis doloremque aliquam rem adipisci?</p>
-                        </div>
-                    </WorksItem>
-                    <WorksItem>
-                        <div className="work-info">
-                            <h2 className="job-title">Job 3</h2>
-                            <p className="job-desciption">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius illo, itaque, voluptatem, voluptatum odit impedit animi facilis doloremque aliquam rem adipisci?</p>
-                        </div>
-                    </WorksItem>
-                    <WorksItem>
-                        <div className="work-info">
-                            <h2 className="job-title">Job 4</h2>
-                            <p className="job-desciption">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius illo, itaque, voluptatem, voluptatum odit impedit animi facilis doloremque aliquam rem adipisci?</p>
-                        </div>
-                    </WorksItem>
-                    <WorksItem>
-                        <div className="work-info">
-                            <h2 className="job-title">Job 5</h2>
-                            <p className="job-desciption">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius illo, itaque, voluptatem, voluptatum odit impedit animi facilis doloremque aliquam rem adipisci?</p>
-                        </div>
-                    </WorksItem>
-                    <WorksItem>
-                        <div className="work-info">
-                            <h2 className="job-title">Job 6</h2>
-                            <p className="job-desciption">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius illo, itaque, voluptatem, voluptatum odit impedit animi facilis doloremque aliquam rem adipisci?</p>
-                        </div>
-                    </WorksItem>
-                    <WorksItem>
-                        <div className="work-info">
-                            <h2 className="job-title">Job 7</h2>
-                            <p className="job-desciption">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius illo, itaque, voluptatem, voluptatum odit impedit animi facilis doloremque aliquam rem adipisci?</p>
-                        </div>
-                    </WorksItem>
-                    <WorksItem>
-                        <div className="work-info">
-                            <h2 className="job-title">Job 8</h2>
-                            <p className="job-desciption">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius illo, itaque, voluptatem, voluptatum odit impedit animi facilis doloremque aliquam rem adipisci?</p>
-                        </div>
-                    </WorksItem>
-                    <WorksItem>
-                        <div className="work-info">
-                            <h2 className="job-title">Job 9</h2>
-                            <p className="job-desciption">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius illo, itaque, voluptatem, voluptatum odit impedit animi facilis doloremque aliquam rem adipisci?</p>
-                        </div>
-                    </WorksItem> */}
                 </WorksContent>
             </div>
         </MainSection>

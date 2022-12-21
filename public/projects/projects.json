@@ -10,43 +10,43 @@
         },
         {
             "id": 2,
-            "title": "Project 2",
+            "title": "Fylo Dark Theme",
             "description": "2 - Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, veritatis minus! Vitae laboriosam fugit molestiae consequuntur. Quo perferendis officiis ex possimus? Praesentium pariatur id aut magni illum dicta reiciendis quas?",
-            "image": "projects/images/appco.png",
-            "url": "#",
-            "repo": "#"
+            "image": "projects/images/fylo-theme.png",
+            "url": "https://marcolucianodev.github.io/fylo-dark-theme",
+            "repo": "https://github.com/marcolucianodev/fylo-dark-theme"
         },
         {
             "id": 3,
-            "title": "Project 3",
+            "title": "Clone Starbucks",
             "description": "3 - Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, veritatis minus! Vitae laboriosam fugit molestiae consequuntur. Quo perferendis officiis ex possimus? Praesentium pariatur id aut magni illum dicta reiciendis quas?",
-            "image": "projects/images/mockup.png",
-            "url": "#",
-            "repo": "#"
+            "image": "projects/images/starbucks.png",
+            "url": "https://marcolucianodev.github.io/clone-starbucks",
+            "repo": "https://github.com/marcolucianodev/clone-starbucks"
         },
         {
             "id": 4,
-            "title": "Project 4",
+            "title": "Template Appco",
             "description": "4 - Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, veritatis minus! Vitae laboriosam fugit molestiae consequuntur. Quo perferendis officiis ex possimus? Praesentium pariatur id aut magni illum dicta reiciendis quas?",
-            "image": "projects/images/teste-port-image.jpg",
-            "url": "#",
-            "repo": "#"
+            "image": "projects/images/appco.png",
+            "url": "https://marcolucianodev.github.io/clone-appco",
+            "repo": "https://github.com/marcolucianodev/clone-appco"
         },
         {
             "id": 5,
-            "title": "Project 5",
+            "title": "List Movies",
             "description": "5 - Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, veritatis minus! Vitae laboriosam fugit molestiae consequuntur. Quo perferendis officiis ex possimus? Praesentium pariatur id aut magni illum dicta reiciendis quas?",
-            "image": "projects/images/teste-port-image.jpg",
-            "url": "#",
-            "repo": "#"
+            "image": "projects/images/list-movies.png",
+            "url": "https://react-list-movies.netlify.app",
+            "repo": "https://github.com/marcolucianodev/list-movies"
         },
         {
             "id": 6,
-            "title": "Project 5",
+            "title": "Markus Social Network",
             "description": "5 - Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, veritatis minus! Vitae laboriosam fugit molestiae consequuntur. Quo perferendis officiis ex possimus? Praesentium pariatur id aut magni illum dicta reiciendis quas?",
-            "image": "projects/images/teste-port-image.jpg",
-            "url": "#",
-            "repo": "#"
+            "image": "projects/images/markus-sn.png",
+            "url": "https://markus-social-network.netlify.app",
+            "repo": "https://github.com/marcolucianodev/Markus-Social-Network"
         }
     ]
 }

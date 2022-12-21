@@ -11,7 +11,7 @@ export const ModalContainer = styled.section`
     top: 0;
     left: 0;
     right: 0;
-    background-color: #FFF;
+    background-color: rgba(0,0,0,0.9);
     padding: 2%;
 `;
 

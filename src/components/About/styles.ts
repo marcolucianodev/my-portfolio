@@ -90,8 +90,8 @@ export const SkillSet = styled.div`
     padding: 1rem 0 1.5rem 0;
 
     .skill-icon {
-        width: 48px;
-        height: 48px;
+        width: 4.8rem;
+        height: 4.8rem;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -143,12 +143,14 @@ export const SkillSet = styled.div`
         .hint-icon {
             position: absolute;
             background-color: rgba(0, 0, 0, 0.8);
-            bottom: -3.1rem;
+            bottom: -3.3rem;
             padding: 0 1rem;
             border-radius: 0.5rem;
             color: #FFF;
             opacity: 0;
             z-index: 99;
+            min-width: 10rem;
+            text-align: center;
 
             :after {
                 content: "";
