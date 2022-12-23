@@ -22,7 +22,7 @@ const TopSection = () => {
                             <a href="#works-section"><Button btn2>Meus Trabalhos</Button></a>
                         </HeadButtons>
                     </div>
-                    <TopSectionImage src={TopImage} />
+                    <TopSectionImage src={TopImage} alt="Marco Luciano dev" />
                 </TopSectionContent>
             </div>
         </MainSection>

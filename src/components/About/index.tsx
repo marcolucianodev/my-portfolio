@@ -14,7 +14,7 @@ const About = () => {
                 <div className="hidden"></div>
                 <SectionTitle>Sobre</SectionTitle>
                 <AboutContent>
-                    <AboutImage src={ImageAbout} />
+                    <AboutImage src={ImageAbout} alt="Sobre - Marco Luciano" />
                     <AboutText 
                         bgBtn="#FFF"
                         borderBtn="var(--third-color)"
@@ -33,7 +33,7 @@ const About = () => {
                                 <span className="hint-icon">Javascript</span>
                             </div>
                             <div className="skill-icon">
-                                <img src={TypescriptIcon} alt="" className="ts" />
+                                <img src={TypescriptIcon} alt="Marco Luciano - Typescript Image" className="ts" />
                                 <span className="hint-icon">Typescript</span>
                             </div>
                             <div className="skill-icon">

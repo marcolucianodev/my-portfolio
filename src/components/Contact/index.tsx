@@ -62,7 +62,7 @@ const Contact = () => {
                             />
                         </SocialMediaContainer>
                     </ContactText>
-                    <ContactImage src={ContactImg} />
+                    <ContactImage src={ContactImg} alt="Contato - Marco Luciano" />
                 </ContactContent>
             </div>
         </MainSection>
