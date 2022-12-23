@@ -6,7 +6,6 @@ import MainRoutes from "./routes/routes";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import MenuMobile from "./components/Menu/MenuMobile";
-import Modal from "./components/Modal";
 
 const App = () => {
 
@@ -18,8 +17,6 @@ const App = () => {
 
   return (
     <div style={{position:"relative"}}>
-
-      {/* <Modal /> */}
 
       {menuIsOpen &&
         <MenuMobile openMenu={openMenu}/>
