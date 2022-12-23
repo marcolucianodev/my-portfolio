@@ -52,10 +52,9 @@ const About = () => {
                                 <FaGitAlt size={48} className="git"  />
                                 <span className="hint-icon">Git</span>
                             </div>
-                            {/* <div className="skill-icon"></div> */}
                         </SkillSet>
                         <div className="get-in-touch">
-                            <a href="/" className="leaked-button" style={{width:"17rem", justifyContent:"center"}}>Download CV <FaAngleRight /></a>
+                            <a href="/documents/cv-marcoluciano-dev.pdf" target="_blank" className="leaked-button" style={{width:"17rem", justifyContent:"center"}}>Download CV <FaAngleRight /></a>
                             <a href="#contact-section" className="leaked-button">Entrar em contato <FaAngleRight /></a>
                         </div>
                     </AboutText>
