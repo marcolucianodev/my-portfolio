@@ -37,6 +37,13 @@ const Works = () => {
                 <SectionTitle>Trabalhos</SectionTitle>
                 <WorksContent>
                     <Project 
+                        desc={projectDesc[6]}
+                        image={projectImage[6]}
+                        title={projectTitle[6]}
+                        repo={projectRepo[6]}
+                        url={projectUrl[6]}
+                    />
+                    <Project 
                         desc={projectDesc[5]}
                         image={projectImage[5]}
                         title={projectTitle[5]}

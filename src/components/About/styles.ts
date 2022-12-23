@@ -53,6 +53,15 @@ export const AboutText = styled.div<AboutProps>`
         height: 4.5rem;
         gap: 1.2rem;
 
+        @media (max-width: 425px) {
+            flex-direction: column;
+
+            a {
+                width: 100% !important;
+                justify-content: center;
+            }
+        }
+
         @media(max-width: 768px) {
             justify-content: center;
         }
@@ -164,7 +173,11 @@ export const SkillSet = styled.div`
                 left: 40%;
             }
         }
-    } 
+    }
+    
+    @media (max-width: 425px) {
+        margin-bottom: 5rem;
+    }
 
     @media(max-width: 768px) {
         flex-wrap: wrap;

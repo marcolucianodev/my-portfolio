@@ -37,6 +37,15 @@ export const HeadButtons = styled.div`
     gap: 2rem;
     margin-top: 2rem;
 
+    @media (max-width: 425px) {
+        flex-direction: column;
+        width: 100%;
+
+        a button {
+            width: 100%;
+        }
+    }
+
     @media(max-width: 1023px) {
         justify-content: center;
     }
