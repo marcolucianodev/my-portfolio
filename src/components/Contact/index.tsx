@@ -5,7 +5,6 @@ import { ContactContent, ContactImage, ContactItem, ContactItemsBox, ContactText
 import ContactImg from "../../assets/images/marco-luciano-image3.png";
 
 import { FaWhatsapp, FaRegEnvelope, FaLinkedinIn , FaGithub } from "react-icons/fa";
-import { Link } from "react-router-dom";
 import { SocialMediaContainer } from "../SocialMedia/styles";
 import SocialMedia from "../SocialMedia";
 
@@ -23,20 +22,20 @@ const Contact = () => {
                         </h2>
                         <p>Estou sempre aberto a novos projetos e desafios. Qualquer dúvida ou pergunta, é só me enviar uma mensagem. Eu irei responderei o mais breve possível.</p>
                         <ContactItemsBox>
-                            <Link to="/" title="E-mail">
+                            <a href="mailto:maurelio.sluciano@gmail.com" title="E-mail">
                                 <ContactItem
                                     contactIconBg="var(--envelop-icon)"
                                 >
                                     <FaRegEnvelope /> Enviar e-mail
                                 </ContactItem>
-                            </Link>
-                            <Link to="/" target="_blank" title="WhatsApp">
+                            </a>
+                            <a href="https://wa.me/+5531998202693?text=Fale%20com%20Marco%20Luciano" target="_blank" title="WhatsApp">
                                 <ContactItem
                                     contactIconBg="var(--whatsapp-icon)"
                                 >
                                     <FaWhatsapp /> Enviar mensagem
                                 </ContactItem>
-                            </Link>
+                            </a>
                         </ContactItemsBox>
                         <SocialMediaContainer>
                             <SocialMedia 
@@ -46,7 +45,7 @@ const Contact = () => {
                                 height="3.6rem"
                                 width="3.6rem"
                                 content={<FaLinkedinIn />}
-                                url="#"
+                                url="https://www.linkedin.com/in/marcolucianodev/"
                                 size="3rem"
                                 title="Linkedin"
                             />
@@ -57,7 +56,7 @@ const Contact = () => {
                                 height="3.6rem"
                                 width="3.6rem"
                                 content={<FaGithub />}
-                                url="#"
+                                url="https://github.com/marcolucianodev"
                                 size="3rem"
                                 title="Github"
                             />

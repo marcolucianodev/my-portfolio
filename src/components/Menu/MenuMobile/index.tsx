@@ -33,7 +33,7 @@ const MenuMobile = ({openMenu}: MenuMobileProps) => {
                             height="3.6rem"
                             width="3.6rem"
                             size="3rem"
-                            url="#"
+                            url="https://www.linkedin.com/in/marcolucianodev/"
                             title="Linkedin"
                         />
                         <SocialMedia 
@@ -44,7 +44,7 @@ const MenuMobile = ({openMenu}: MenuMobileProps) => {
                             height="3.6rem"
                             width="3.6rem"
                             size="3rem"
-                            url="#"
+                            url="https://github.com/marcolucianodev"
                             title="Github"
                         />
                         <SocialMedia 
@@ -55,7 +55,7 @@ const MenuMobile = ({openMenu}: MenuMobileProps) => {
                             height="3.6rem"
                             width="3.6rem"
                             size="3rem"
-                            url="#"
+                            url="mailto:maurelio.sluciano@gmail.com"
                             title="E-mail"
                         />
                         <SocialMedia 
@@ -66,7 +66,8 @@ const MenuMobile = ({openMenu}: MenuMobileProps) => {
                             height="3.6rem"
                             width="3.6rem"
                             size="3rem"
-                            url="#"
+                            url="
+                            https://wa.me/+5531998202693?text=Fale%20com%20Marco%20Luciano"
                             title="WhatsApp"
                         />
                     </SocialMediaContainer>

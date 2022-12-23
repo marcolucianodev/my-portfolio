@@ -23,7 +23,7 @@ const Footer = () => {
                         content={<FaLinkedinIn />}
                         height="2.4rem"
                         width="2.4rem"
-                        url="#"
+                        url="https://www.linkedin.com/in/marcolucianodev/"
                         size="2rem"
                         title="Linkedin"
                     />
@@ -34,7 +34,7 @@ const Footer = () => {
                         content={<FaGithub />}
                         height="2.4rem"
                         width="2.4rem"
-                        url="#"
+                        url="https://github.com/marcolucianodev"
                         size="2rem"
                         title="Github"
                     />
@@ -45,7 +45,7 @@ const Footer = () => {
                         content={<FaEnvelope />}
                         height="2.4rem"
                         width="2.4rem"
-                        url="#"
+                        url="mailto:maurelio.sluciano@gmail.com"
                         size="2rem"
                         title="E-mail"
                     />
@@ -56,7 +56,8 @@ const Footer = () => {
                         content={<FaWhatsapp />}
                         height="2.4rem"
                         width="2.4rem"
-                        url="#"
+                        url="
+                        https://wa.me/+5531998202693?text=Fale%20com%20Marco%20Luciano"
                         size="2rem"
                         title="WhatsApp"
                     />
