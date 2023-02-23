@@ -6,7 +6,6 @@ import { FaAngleRight, FaJsSquare, FaReact, FaHtml5, FaCss3Alt, FaGitAlt } from 
 
 import TypescriptIcon from "../../assets/images/typescript.png"
 
-
 const About = () => {
     return (
         <MainSection>
@@ -21,7 +20,7 @@ const About = () => {
                         colorBtn="var(--third-color)"
                     >
                         <h2>Olá!</h2>
-                        <p>Eu sou o Marco Luciano, Desenvolvedor Front-end, atualmente morando em Minas Gerais, Brasil.</p>
+                        <p>Eu sou o Marco Luciano, Desenvolvedor web Front-end.</p>
 
                         <p>Como um profissional apaixonado e motivado, estou constantemente me esforçando para melhorar minhas técnicas, expandir minhas habilidades e encontrar novas oportunidades de crescimento.</p> 
 

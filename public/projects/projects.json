@@ -2,38 +2,6 @@
     "projects": [
         {
             "id": 1,
-            "title": "Calculadora de Porcentagem",
-            "description": "Projeto de uma aplicação que realiza cálculos de porcentagem. Este projeto foi desenvolvido utilizando as tecnologias Javascript, HTML e CSS.",
-            "image": "projects/images/calc-porcentagem.png",
-            "url": "https://marcolucianodev.github.io/calculadora-de-porcentagem",
-            "repo": "https://github.com/marcolucianodev/calculadora-de-porcentagem"
-        },
-        {
-            "id": 2,
-            "title": "Gerador de Conselhos",
-            "description": "Projeto Gerador de Conselhos dinâmico utilizando a API Advice Slip. Este projeto foi desenvolvido com React e Styled-components.",
-            "image": "projects/images/advice-generator.png",
-            "url": "https://app-advice-generator.netlify.app",
-            "repo": "https://github.com/marcolucianodev/advice-generator-app"
-        },
-        {
-            "id": 3,
-            "title": "Fylo Dark Theme",
-            "description": "Projeto estilo landing page com um tema dark. Este projeto foi desenvolvido utilizando as tecnologias HTML, CSS e Javascript.",
-            "image": "projects/images/fylo-theme.png",
-            "url": "https://marcolucianodev.github.io/fylo-dark-theme",
-            "repo": "https://github.com/marcolucianodev/fylo-dark-theme"
-        },
-        {
-            "id": 4,
-            "title": "Clone Starbucks",
-            "description": "Projeto de clone de uma das versões do site do Starbucks. Este projeto foi desenvolvido utilizando as tecnologias HTML e CSS, sendo muito utilizado o CSS Grid para estrutura e posicionamentos no layout.",
-            "image": "projects/images/starbucks.png",
-            "url": "https://marcolucianodev.github.io/clone-starbucks",
-            "repo": "https://github.com/marcolucianodev/clone-starbucks"
-        },
-        {
-            "id": 5,
             "title": "Template Appco",
             "description": "Projeto de clone do template Appco da Themeforest no estilo landing page. Este projeto foi desenvolvido utilizando as tecnologias HTML, CSS e Javascript.",
             "image": "projects/images/appco.png",
@@ -41,7 +9,7 @@
             "repo": "https://github.com/marcolucianodev/clone-appco"
         },
         {
-            "id": 6,
+            "id": 2,
             "title": "List Movies",
             "description": "Projeto Lista de Filmes estilo Netflix. Este projeto tem o consumo da API pública do TMDB(The Movie Database) e foi desenvolvido utilizando as tecnologias React, Styled-components.",
             "image": "projects/images/list-movies.png",
@@ -49,7 +17,7 @@
             "repo": "https://github.com/marcolucianodev/list-movies"
         },
         {
-            "id": 7,
+            "id": 3,
             "title": "Markus Social Network",
             "description": "Projeto da interface de uma rede social, com feed de usuários, páginas de usuários e grupos. Esse projeto foi desenvolvido com React, Typescript, Styled-components e Axios para consumir uma API Fake.",
             "image": "projects/images/markus-sn.png",
