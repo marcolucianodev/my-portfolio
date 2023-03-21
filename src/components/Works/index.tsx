@@ -32,6 +32,7 @@ const Works = () => {
                 <WorksContent>
                     {project.map((item: any) => (
                         <Project 
+                            key={item.id}
                             desc={item.description}
                             image={item.image}
                             title={item.title}
