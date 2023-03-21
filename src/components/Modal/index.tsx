@@ -8,6 +8,7 @@ import {
 } from "./styles";
 
 import { GrClose } from "react-icons/gr";
+import { FaGithub, FaLink } from "react-icons/fa";
 
 type ModalProps = {
     modalOpen: () => void,
@@ -31,8 +32,8 @@ const Modal = ({description, title, image, modalOpen, url, repo}: ModalProps) =>
                         <h2>{title}</h2>
                         <p>{description}</p>
                         <ul>
-                            <li><a href={url} target="_blank">Link do projeto</a></li>
-                            <li><a href={repo} target="_blank">Github</a></li>
+                            <li><a href={url} target="_blank"><FaLink /> Link do projeto</a></li>
+                            <li><a href={repo} target="_blank"><FaGithub /> Github</a></li>
                         </ul>
                     </ProjectDescription>
                 </ProjectContent>

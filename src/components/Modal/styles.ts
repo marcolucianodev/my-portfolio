@@ -102,6 +102,9 @@ export const ProjectDescription = styled.div`
     a {
         text-decoration: underline;
         color: var(--text-color);
+        display: flex;
+        align-items: center;
+        gap: .7rem;
     }
 
     @media (max-width: 960px) {
