@@ -28,7 +28,7 @@ const Works = () => {
         <MainSection>
             <div id="works-section">
                 <div className="hidden"></div>
-                <SectionTitle>Trabalhos</SectionTitle>
+                <SectionTitle>Projetos</SectionTitle>
                 <WorksContent>
                     {project.map((item: any) => (
                         <Project 

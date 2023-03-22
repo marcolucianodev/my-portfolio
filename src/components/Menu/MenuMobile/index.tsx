@@ -21,7 +21,7 @@ const MenuMobile = ({openMenu}: MenuMobileProps) => {
             <MenuMobileList>
                 <MenuItem><a href="#top-section" onClick={openMenu}>Inicio</a></MenuItem>
                 <MenuItem><a href="#about-section" onClick={openMenu}>Sobre</a></MenuItem>
-                <MenuItem><a href="#works-section" onClick={openMenu}>Trabalhos</a></MenuItem>
+                <MenuItem><a href="#works-section" onClick={openMenu}>Projetos</a></MenuItem>
                 <MenuItem><a href="#contact-section" onClick={openMenu}>Contato</a></MenuItem>
                 <MenuItem>
                     <SocialMediaContainer>

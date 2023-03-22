@@ -5,7 +5,6 @@ export const WrapContent = styled.main`
     flex-direction: column;
     width: 100%;
     height: auto;
-    /* padding-top: 10.2rem; */
 `;
 
 export const MainSection = styled.section`
@@ -18,7 +17,6 @@ export const MainSection = styled.section`
 
     #top-section {
         padding: 0 1.5rem;
-        /* display: flex; */
         width: 100%;
         
         @media(max-width: 1023px) {

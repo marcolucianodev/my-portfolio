@@ -19,7 +19,7 @@ const TopSection = () => {
                         </Headline>
                         <HeadButtons>
                             <a href="#contact-section"><Button>Vamos conversar ?</Button></a>
-                            <a href="#works-section"><Button btn2>Meus Trabalhos</Button></a>
+                            <a href="#works-section"><Button btn2>Meus Projetos</Button></a>
                         </HeadButtons>
                     </div>
                     <TopSectionImage src={TopImage} alt="Marco Luciano dev" />

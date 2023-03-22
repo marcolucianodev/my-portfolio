@@ -9,7 +9,6 @@ export const ContactContent = styled.section`
 
     @media(max-width: 880px) {
         flex-direction: column;
-        /* padding: 0 3rem; */
     }
 `;
 
@@ -52,8 +51,6 @@ export const ContactItemsBox = styled.section`
 `;
 
 export const ContactItem = styled.div<ContactProps>`
-    /* width: 15rem; */
-    /* height: 4.8rem; */
     background-color: ${props => props.contactIconBg};
     display: flex;
     align-items: center;
