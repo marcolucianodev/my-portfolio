@@ -7,6 +7,7 @@ import { SocialMediaContainer } from "../SocialMedia/styles";
 import { FaLinkedinIn, FaGithub, FaEnvelope, FaWhatsapp } from "react-icons/fa";
 
 const Footer = () => {
+    
     return (
         <FooterContainer>
             <FooterContent>
