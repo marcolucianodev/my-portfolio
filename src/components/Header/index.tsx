@@ -26,7 +26,7 @@ const Header = ({openMenu}: HeaderProps) => {
                 <Menu>
                     <MenuItem><a href="#top-section">Inicio</a></MenuItem>
                     <MenuItem><a href="#about-section">Sobre</a></MenuItem>
-                    <MenuItem><a href="#works-section">Trabalhos</a></MenuItem>
+                    <MenuItem><a href="#works-section">Projetos</a></MenuItem>
                     <MenuItem><a href="#contact-section">Contato</a></MenuItem>
                 </Menu>
                     <SocialMediaContainer mdisplay>
