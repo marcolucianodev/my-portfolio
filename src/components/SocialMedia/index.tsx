@@ -12,7 +12,17 @@ type SocialMediaProps = {
     title: string
 }
 
-const SocialMedia = ({content, bg, border, color, height, width, url, size, title}: SocialMediaProps) => {
+const SocialMedia = ({
+    content, 
+    bg, 
+    border, 
+    color, 
+    height, 
+    width, 
+    url, 
+    size, 
+    title
+}: SocialMediaProps) => {
     return (
         <a href={url} target="_blank">
             <SocialMediaItem

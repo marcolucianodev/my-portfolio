@@ -10,7 +10,13 @@ type ProjectProps = {
     repo: string
 }
 
-const Project = ({desc, title, image, repo, url}: ProjectProps) => {
+const Project = ({
+    desc, 
+    title, 
+    image, 
+    repo, 
+    url
+}: ProjectProps) => {
 
     const [ modal, setModal ] = useState(false);
     
