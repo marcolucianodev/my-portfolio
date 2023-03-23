@@ -13,19 +13,24 @@ const About = () => {
                 <div className="hidden"></div>
                 <SectionTitle>Sobre</SectionTitle>
                 <AboutContent>
-                    <AboutImage src={ImageAbout} />
+                    <AboutImage>
+                        <img src={ImageAbout} alt="" />
+                    </AboutImage>
                     <AboutText 
                         bgBtn="#FFF"
                         borderBtn="var(--third-color)"
                         colorBtn="var(--third-color)"
                     >
                         <h2>Olá!</h2>
-                        <p>Eu sou o Marco Luciano, Desenvolvedor web Front-end.</p>
+                        <p>Sou um desenvolvedor frontend apaixonado por tecnologia com habilidades em diversas ferramentas. Minha experiência se concentra em tecnologias modernas como Javascript, Typescript e React, que utilizo para construir soluções escaláveis e eficientes.</p>
 
-                        <p>Como um profissional apaixonado e motivado, estou constantemente me esforçando para melhorar minhas técnicas, expandir minhas habilidades e encontrar novas oportunidades de crescimento.</p> 
+                        <p>Tenho experiência em consumir API Rest e utilizo HTML e CSS para criar interfaces intuitivas e amigáveis para o usuário. Além disso, utilizo o Styled-Components e o Tailwind CSS para criar estilos personalizados e garantir a consistência visual do projeto.</p> 
 
-                        <h3>Minhas Hard Skills:</h3>
-                        <p>Javascript, Typescript, React, Context API, Consumo de API Rest, HTML, CSS, Styled-Components, Tailwind CSS, Git, Scrum.</p>
+                        <p>Utilizo o Git como ferramenta de versionamento de código e possuo conhecimentos em metodologias ágeis, como o Scrum, para gerenciar projetos de forma eficiente.</p>
+
+                        <p>Estou sempre em busca de novas tecnologias e tendências do mercado para oferecer soluções atualizadas e de alta qualidade para meus clientes e projetos.</p>
+
+                        <h3>Minhas Habilidades:</h3>
                         <SkillSet>
                             <div className="skill-icon">
                                 <FaJsSquare size={48} className="js" />

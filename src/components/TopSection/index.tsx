@@ -18,7 +18,7 @@ const TopSection = () => {
                             <span>Portfólio</span>
                         </Headline>
                         <HeadButtons>
-                            <a href="#contact-section"><Button>Vamos conversar ?</Button></a>
+                            <a href="#contact-section"><Button>Vamos conversar?</Button></a>
                             <a href="#works-section"><Button btn2>Meus Projetos</Button></a>
                         </HeadButtons>
                     </div>

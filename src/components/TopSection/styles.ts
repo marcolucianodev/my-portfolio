@@ -9,7 +9,6 @@ export const TopSectionContent = styled.section`
 `;
 
 export const Headline = styled.h1`
-    text-transform: uppercase;
     flex: 2;
     font-size: 4rem;
     padding-right: 2rem;

@@ -29,7 +29,7 @@ const Contact = () => {
                                     <FaRegEnvelope /> Enviar e-mail
                                 </ContactItem>
                             </a>
-                            <a href="https://wa.me/+5531998202693?text=Fale%20com%20Marco%20Luciano" target="_blank" title="WhatsApp">
+                            <a href="https://wa.link/afwa29" target="_blank" title="WhatsApp">
                                 <ContactItem
                                     contactIconBg="var(--whatsapp-icon)"
                                 >

@@ -71,8 +71,7 @@ const Header = ({openMenu}: HeaderProps) => {
                             height="2.4rem"
                             width="2.4rem"
                             size="2rem"
-                            url="
-                            https://wa.me/+5531998202693?text=Fale%20com%20Marco%20Luciano"
+                            url="https://wa.link/afwa29"
                             title="WhatsApp"
                         />
                     </SocialMediaContainer>
