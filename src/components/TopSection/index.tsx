@@ -13,12 +13,12 @@ const TopSection = () => {
                         <Headline>
                             Hello World!<br />
                             Eu sou Marco Luciano<br />
-                            Desenvolvedor Front-end<br />
+                            Desenvolvedor Frontend<br />
                             Bem-vindos ao meu<br />
                             <span>Portfólio</span>
                         </Headline>
                         <HeadButtons>
-                            <a href="#contact-section"><Button>Vamos conversar ?</Button></a>
+                            <a href="#contact-section"><Button>Vamos conversar?</Button></a>
                             <a href="#works-section"><Button btn2>Meus Projetos</Button></a>
                         </HeadButtons>
                     </div>

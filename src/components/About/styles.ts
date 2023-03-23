@@ -25,15 +25,28 @@ export const AboutContent = styled.section`
     }
 `;
 
-export const AboutImage = styled.img`
+export const AboutImage = styled.div`
+    width: 100%;
     padding: 3rem;
-    max-width: 40rem;
-    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
-    @media(max-width: 768px){
-        margin: 0 auto;
-        max-width: 30rem;
+    @media (max-width: 768px) {
+        padding: 0;
     }
+
+    @media (max-width: 1023px) {
+        margin-bottom: 3rem;
+    }
+
+    img {
+        @media (max-width: 768px) {
+            margin: 0 auto;
+            max-width: 30rem;
+        }
+    }
+
 `;
 
 export const AboutText = styled.div<AboutProps>`
@@ -93,7 +106,7 @@ export const AboutText = styled.div<AboutProps>`
 
 export const SkillSet = styled.div`
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     gap: 2rem;
     padding: 1rem 0 1.5rem 0;
@@ -177,6 +190,7 @@ export const SkillSet = styled.div`
     
     @media (max-width: 425px) {
         margin-bottom: 5rem;
+        justify-content: center;
     }
 
     @media(max-width: 768px) {

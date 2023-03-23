@@ -7,6 +7,7 @@ import { SocialMediaContainer } from "../SocialMedia/styles";
 import { FaLinkedinIn, FaGithub, FaEnvelope, FaWhatsapp } from "react-icons/fa";
 
 const Footer = () => {
+    
     return (
         <FooterContainer>
             <FooterContent>
@@ -56,8 +57,7 @@ const Footer = () => {
                         content={<FaWhatsapp />}
                         height="2.4rem"
                         width="2.4rem"
-                        url="
-                        https://wa.me/+5531998202693?text=Fale%20com%20Marco%20Luciano"
+                        url="https://wa.link/afwa29"
                         size="2rem"
                         title="WhatsApp"
                     />

@@ -66,8 +66,7 @@ const MenuMobile = ({openMenu}: MenuMobileProps) => {
                             height="3.6rem"
                             width="3.6rem"
                             size="3rem"
-                            url="
-                            https://wa.me/+5531998202693?text=Fale%20com%20Marco%20Luciano"
+                            url="https://wa.link/afwa29"
                             title="WhatsApp"
                         />
                     </SocialMediaContainer>
