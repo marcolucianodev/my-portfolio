@@ -20,7 +20,7 @@ const Contact = () => {
                             Vamos trabalhar juntos?<br />
                             Então vamos nos conectar!
                         </h2>
-                        <p>Estou sempre aberto a novos projetos e desafios. Qualquer dúvida ou pergunta, é só me enviar uma mensagem. Eu irei responderei o mais breve possível.</p>
+                        <p>Estou sempre aberto a novos projetos e desafios. Qualquer dúvida ou pergunta, é só me enviar uma mensagem. Eu irei responder o mais breve possível.</p>
                         <ContactItemsBox>
                             <a href="mailto:maurelio.sluciano@gmail.com" title="E-mail">
                                 <ContactItem
